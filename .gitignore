@@ -1,0 +1,31 @@
+# Environnement virtuel
+.venv/
+env/
+venv/
+
+# Fichiers de base de données
+db.sqlite3
+
+# Fichiers compilés Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Dossiers de configuration PyCharm
+.idea/
+
+# Fichiers de migration inutiles
+*.log
+
+# Fichiers statiques générés
+/staticfiles/
+media/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers de migration Django
+**/migrations/*.py
+**/migrations/*.pyc
+!**/migrations/__init__.py
